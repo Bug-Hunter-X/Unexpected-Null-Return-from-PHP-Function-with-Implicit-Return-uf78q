@@ -1,0 +1,3 @@
+# Unexpected Null Return from PHP Function
+
+This repository demonstrates a common but subtle bug in PHP: unexpected null returns from functions due to implicit return behavior.  PHP functions that don't explicitly return a value in all execution paths implicitly return `null`.  This can be problematic if the calling code assumes a different return value.  The `bug.php` file illustrates the problem, while `bugSolution.php` provides a corrected version.
